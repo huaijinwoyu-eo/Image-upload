@@ -1,0 +1,51 @@
+/*上传头像相关*/
+.auto0{
+    margin: 0 auto;
+}
+.tc{
+    text-align: center;
+}
+canvas#canvas{
+    display: block;
+    margin: 10px auto;
+}
+canvas#copy{
+    display: none;
+}
+canvas#trans{
+    display: none;
+}
+canvas#Mir{
+    display: none;
+}
+a.upload-wrap{
+    display: inline-block;
+    padding: 0 15px;
+    height: 35px;
+    line-height: 35px;
+    background: #0f75bd;
+    color: #ffffff;
+    border: 1px solid #0f75bd;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.upload-wrap:hover{
+    background: #ffffff;
+    color: #0f75bd;
+}
+a.upload-wrap.margin{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+a.upload-wrap input{
+    position: absolute;
+    display: block;
+    right: 0;
+    top:0;
+    font-size: 100px;
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
